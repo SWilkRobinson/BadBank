@@ -1,0 +1,13 @@
+function Home(){
+  return (
+    <Card
+      bgcolor="success"
+      txtcolor="white"
+      header="BadBank Landing Module"
+      title="Welcome to the bank"
+      text="You can move around using the navigation bar.
+      Create an account today for 100(fake) towards your balance!"
+      body={(<img src="bank.png" className="img-fluid" alt="Responsive image"/>)}
+    />    
+  );  
+}
